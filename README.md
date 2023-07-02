@@ -21,8 +21,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+-code editor (VS CODE)
+-node js
+-inquirer
+-jest
 
 ## Usage
 

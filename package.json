@@ -1,0 +1,30 @@
+{
+  "name": "shiny-engine",
+  "version": "1.0.0",
+  "description": "Module10-Challenge-6-28-23 # <Your-Project-Title>",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abisinchan/shiny-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/abisinchan/shiny-engine/issues"
+  },
+  "homepage": "https://github.com/abisinchan/shiny-engine#readme"
+}
