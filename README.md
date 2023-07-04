@@ -1,6 +1,6 @@
 # shiny-engine
 Module10-Challenge-6-28-23
-
+Example logos that have been generated are located in the example file.
 ## Description
 This app generates a simple logo in a svg file. This is beneficial for those who may not want to pay a graphic designer big bucks. 
 I struggled with creating the test portion in jest. I wasn't exactly sure how  I wanted it to pass, but I gathered inspiration from the example test and went from there. 
