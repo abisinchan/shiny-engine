@@ -22,7 +22,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 -code editor (VS CODE)
--node js
+-GitBash
+-node.js
 -inquirer
 -jest
 
@@ -35,6 +36,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+## Link to Demo
+https://drive.google.com/file/d/1Cx7LuLbs-ztz74zstE2evrV_q474QHhX/view?usp=sharing
 
 ## Credits
 
