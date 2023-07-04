@@ -1,74 +1,49 @@
 # shiny-engine
 Module10-Challenge-6-28-23
-# <Your-Project-Title>
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+This app generates a simple logo in a svg file. This is beneficial for those who may not want to pay a graphic designer big bucks. 
+I struggled with creating the test portion in jest. I wasn't exactly sure how  I wanted it to pass, but I gathered inspiration from the example test and went from there. 
 
 ## Installation
+These installations are required to be able to run my code. 
 -code editor (VS CODE)
 -GitBash
 -node.js
 -inquirer
 -jest
 
+## Tests
+The test is testing the render() method, to ensure it returns a string for the corresponding SVG file with the given shape color.
+After adjusting color on shapes.test.js, save and open in GitBash. Run test using "npm run test". You should see that all three shapes (triangle, circle, and square) will pass. 
+If needing the test to fail, you can purposely adjust specs in shapes-render.js.
+
 ## Usage
+Type in " node index.js" in command line to start the inquirer prompt. 
+Enter up to three characters
+Then choose a text color, either in keyword or hexidecimal. 
+Then choose shape.
+You will be presented with a list of shapes to choose from: circle, triangle, and square.
+Then choose a shape color, either in keyword or hexidecimal. 
+When you have entered input for all the prompts
+THEN an SVG file is created named `logo.svg`.
+Everytime a logo is generated it will have an attached number that will increment if in existance already. 
+Once generated, "Generated logo.svg" is printed in the command line.
+Your `logo.svg` file will be located in main folder in this case "SHINY-ENGINE".
+Upon opening in browser, a 300x200 pixel image that matches the criteria you entered will show. 
+![logo2](https://github.com/abisinchan/verbose-potato/assets/132783183/cb1f162b-46f5-4355-93b9-dec9e8507133)
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 ## Link to Demo
 https://drive.google.com/file/d/1Cx7LuLbs-ztz74zstE2evrV_q474QHhX/view?usp=sharing
 
 ## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+n/a
 
 ## License
+MIT LICENSE
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+## GITHUB REPO:
+https://github.com/abisinchan/shiny-engine.git
 
----
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then p
